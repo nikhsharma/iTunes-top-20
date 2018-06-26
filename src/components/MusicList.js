@@ -1,9 +1,12 @@
 import React, {Component} from 'react';
+import MusicEntry from './MusicEntry';
 
 class MusicList extends Component {
   render() {
     return(
-      <p>list of songs</p>
+      <div>
+        <MusicEntry />
+      </div>
     )
   }
 }
