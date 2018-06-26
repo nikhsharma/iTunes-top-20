@@ -1,0 +1,19 @@
+.entry {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.entry.nth-child(even) {
+  background-color: black!important;
+}
+
+.pos {
+  font-size: 2rem;
+  padding: 50px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}

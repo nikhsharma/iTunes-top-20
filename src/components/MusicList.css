@@ -1,0 +1,26 @@
+.list-item {
+  width: 33%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-item:nth-child(even) {
+  background-color: #FFFFFF;
+}
+
+.list-item:nth-child(even):hover {
+  background-color: #f7f7f7;
+}
+
+.list-item:nth-child(odd):hover {
+  background-color: #f7f7f7;
+}
+
+
+#list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
